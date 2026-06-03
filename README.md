@@ -56,4 +56,13 @@ This project controls a real robot. Always verify the grasp pose before executio
 YOLO / YOLO-seg object detection
 Mask-based grasp point refinement
 Better multi-object target selection
-Grasp result logging
+Grasp result logging## Demo
+
+### System Setup
+
+![System setup](docs/images/system_setup.jpg)
+
+### Online Grasp Preview
+
+![Online grasp preview](docs/images/grasp_preview.jpg)
+
