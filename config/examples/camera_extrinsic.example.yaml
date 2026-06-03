@@ -1,0 +1,41 @@
+base_frame: base
+camera_frame: camera_color_optical_frame
+T_base_camera:
+  translation:
+  - 1.2619777495235698
+  - -0.06866090936212663
+  - 0.6360819883536001
+  quaternion_xyzw:
+  - 0.6649973212612834
+  - 0.6457107311656625
+  - -0.23833408165254286
+  - -0.28988459754816576
+  rotation_matrix:
+  - - 0.05250903436068974
+    - 0.7206130543859426
+    - -0.691346242601398
+  - - 0.9969705717533789
+    - 0.0019508564763127028
+    - 0.07775521343775073
+  - - 0.0573801391445618
+    - -0.6933347099399912
+    - -0.718327571254354
+T_grasp_tcp:
+  translation:
+  - 0.0
+  - 0.0
+  - 0.0
+  quaternion_xyzw:
+  - 0.0
+  - 0.7071067811865475
+  - 0.0
+  - 0.7071067811865476
+calibration_source:
+  method: charuco_tcp_teaching
+  board_yaml: /home/sjm/franka_grasp_ws/src/franka_grasp_demo/config/charuco_board.yaml
+  charuco_pose_camera_json: /home/sjm/franka_grasp_ws/src/franka_grasp_demo/data/charuco_calib/charuco_pose_camera.json
+  tcp_points_base_json: /home/sjm/franka_grasp_ws/src/franka_grasp_demo/data/charuco_calib/tcp_points_base.json
+  mean_teaching_residual_m: 0.0011572477134952227
+  max_teaching_residual_m: 0.002024473065731134
+note: External fixed camera calibration using ChArUco board and Franka TCP-taught
+  board corners. T_base_camera maps camera_color_optical_frame into base.

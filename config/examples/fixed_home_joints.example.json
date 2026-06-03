@@ -1,0 +1,21 @@
+{
+  "joint_names": [
+    "fr3_joint1",
+    "fr3_joint2",
+    "fr3_joint3",
+    "fr3_joint4",
+    "fr3_joint5",
+    "fr3_joint6",
+    "fr3_joint7"
+  ],
+  "positions": [
+    0.002425678074359894,
+    -0.9679080843925476,
+    -0.0304502435028553,
+    -1.765445351600647,
+    -0.011149937286973,
+    0.8413787484169006,
+    0.7307560443878174
+  ],
+  "note": "Fixed home joint pose for Franka sorting demo."
+}

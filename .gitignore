@@ -1,0 +1,52 @@
+# ROS / colcon
+build/
+install/
+log/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# IDE / system
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Runtime data
+data/realsense_sample/
+data/charuco_calib/
+data/manual_grasp/
+data/graspnet_result/
+*.bag
+*.db3
+*.mp4
+*.avi
+*.webm
+
+# Robot / camera specific configs
+config/camera_extrinsic.yaml
+config/fixed_home_joints.json
+
+# Secrets
+.env
+*.key
+secrets/
+
+# Ignore all runtime data
+data/
+online_click_execute_manual_grasp_yaw.png
+
+# Backup files
+*_backup*
+*_backup_before_*
+scripts/*backup*
+src/*backup*
+
+# Robot-specific calibration backups
+config/camera_extrinsic_backup*.yaml
+config/external_camera_calibration.yaml

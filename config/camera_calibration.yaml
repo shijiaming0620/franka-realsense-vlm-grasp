@@ -1,0 +1,11 @@
+base_frame: base
+camera_frame: camera_color_optical_frame
+marker_frame: aruco_marker
+
+# 黑色 ArUco 方块实际边长，单位 m
+marker_size: 0.08
+
+# 先临时填，后面要根据 marker 在 FR3 base 下的真实位置修改
+T_base_marker:
+  translation: [0.635, 0.00, -0.125]
+  quaternion_xyzw: [0.0, 0.0, 0.0, 1.0]

@@ -1,0 +1,14 @@
+squares_x: 7
+squares_y: 5
+square_length: 0.035
+marker_length: 0.026
+dictionary: DICT_4X4_50
+board_frame: charuco_board
+camera_frame: camera_color_optical_frame
+base_frame: base
+
+teach_corner_ids:
+  - 0
+  - 5
+  - 23
+  - 18
