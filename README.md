@@ -50,3 +50,10 @@ Example files are provided in:
 config/examples/
 
 Do not directly reuse another robot's camera extrinsic file.
+##Safety
+This project controls a real robot. Always verify the grasp pose before execution and keep the emergency stop accessible.
+##Roadmap
+YOLO / YOLO-seg object detection
+Mask-based grasp point refinement
+Better multi-object target selection
+Grasp result logging
