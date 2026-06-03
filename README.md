@@ -66,3 +66,12 @@ Grasp result logging## Demo
 
 ![Online grasp preview](docs/images/grasp_preview.jpg)
 
+### Video Demo
+
+[Watch MP4 demo video](docs/videos/franka_grasp_demo.mp4)
+
+
+
+
+
+
